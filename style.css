@@ -1,0 +1,261 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   
+}
+
+body {
+   background: #22212C;
+}
+
+main {
+   color: #837E9F;
+   font-family: 'Merriweather Sans', sans-serif;
+   
+}
+.conteiner {
+   padding-top: 40px;
+   padding-bottom: 60px;
+}
+
+.box1 {
+   width: 345px;
+   height: 230px;
+   background-color: #302F3D;
+   margin-left: 40px;
+   
+   display: flex;
+   border-radius: 20px;
+ 
+}
+.origin {
+   width: 80px;
+   height: 80px;
+   object-fit: cover;
+   border-radius: 100px;
+   margin-left: 130px;
+   margin-top: 30px;
+   
+}
+.meu-nome {
+   margin-left: 95px;
+   margin-top: 20px;
+}
+.sou {
+   margin-left: 125px;
+   margin-top: 10px;
+   font-size: 10px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.box2 {
+   width: 345px;
+   height: 350px;
+   background-color: #302F3D;
+   margin-left: 40px;
+   margin-top: 25px;
+   display: flex;
+  
+   border-radius: 20px;
+}
+.local {
+   display: flex;
+   align-items: center;
+   margin-top: 40px;
+   size: 10px;
+}
+ .icon-localização {
+   margin-left: 40px;
+   display: flex;
+   
+ }
+ .nome-país {
+   margin-left: 20px;
+   size: 10px;
+   font-family: 'Roboto', sans-serif;
+ }
+ .trabalho {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+ }
+ .icon-trabalho {
+   margin-left: 40px;
+   
+}
+.nome-trabalho {
+   font-family: 'Roboto', sans-serif;
+   size: 10px;
+   margin-left: 20px;
+}
+
+.github {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+   }
+.icon-github {
+margin-left: 40px;
+}
+.nome-github {
+   font-family: 'Roboto', sans-serif;
+   size: 10px;
+   margin-left: 20px;
+}
+
+.linkedin {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+.icon-linkedin {
+   margin-left: 40px;
+}
+.nome-linkedin {
+   font-family: 'Roboto', sans-serif;
+   size: 10px;
+   margin-left: 20px;
+}
+.twitter {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+.icon-twitter {
+   margin-left: 40px;
+}
+.nome-twitter {
+   font-family: 'Roboto', sans-serif;
+   size: 10px;
+   margin-left: 20px;
+}
+
+.portfolio {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+.icon-portfolio {
+   margin-left: 40px;
+}
+.nome-portfolio {
+   font-family: 'Roboto', sans-serif;
+   size: 10px;
+   margin-left: 20px;
+}
+.email {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+.icon-email {
+   margin-left: 40px;
+   
+}
+.nome-email {
+   font-family: 'Roboto', sans-serif;
+   size: 10px;
+   margin-left: 20px;
+}
+
+.box3 {
+   width: 345px;
+   height: 208px;
+   background-color: #302F3D;
+   margin-left: 40px;
+   margin-top: 25px;
+   display: flex;
+   border-radius: 20px;
+   
+}
+.tec-titulo {
+  margin-left: 19.99px;
+  margin-top: 33px;
+}
+
+.javascript {
+   position: absolute;
+   width: 86px;
+   height: 24px;
+   background-color:  #CB92B1;
+   align-items: center;
+   display: flex;
+   margin-top: 76px;
+   margin-left: 30px;
+   border-radius: 20px;
+}
+.java {
+   color:  #000000;
+   font-family: 'Merriweather Sans';
+   font-size: 10px;
+   margin-left: 13px;
+}
+.css {
+   position: absolute;
+   width: 86px;
+   height: 24px;
+   background-color:  #CB92B1;
+   align-items: center;
+   display: flex;
+   margin-top: 76px;
+   margin-left: 130px;
+   border-radius: 20px;
+}
+.meu-css {
+   color:  #000000;
+   font-family: 'Merriweather Sans';
+   font-size: 10px;
+   margin-left: 33px;
+}
+.html {
+   position: absolute;
+   width: 86px;
+   height: 24px;
+   background-color:  #CB92B1;
+   align-items: center;
+   display: flex;
+   margin-top: 76px;
+   margin-left: 230px;
+   border-radius: 20px;
+}
+.meu-html {
+   color:  #000000;
+   font-family: 'Merriweather Sans';
+   font-size: 10px;
+   margin-left: 29px;
+}
+.github2 {
+   position: absolute;
+   width: 86px;
+   height: 24px;
+   background-color:  #CB92B1;
+   align-items: center;
+   display: flex;
+   margin-top: 110px;
+   margin-left: 30px;
+   border-radius: 20px;
+}
+.meu-github2 {
+   color:  #000000;
+   font-family: 'Merriweather Sans';
+   font-size: 10px;
+   margin-left: 23px;
+}
+.novo1 {
+   position: absolute;
+   width: 86px;
+   height: 24px;
+   background-color:  #CB92B1;
+   align-items: center;
+   display: flex;
+   margin-top: 110px;
+   margin-left: 130px;
+   border-radius: 20px;
+}
+.novo2 {
+   color:  #000000;
+   font-family: 'Merriweather Sans';
+   font-size: 10px;
+   margin-left: 37px;
+}
