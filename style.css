@@ -36,7 +36,7 @@ main {
    border-radius: 100px;
    margin-left: 130px;
    margin-top: 30px;
-   
+   border: 2px solid #00FF00;
 }
 .meu-nome {
    margin-left: 75px;
@@ -279,12 +279,31 @@ margin-left: 40px;
 }
 .xp {
    margin-top: 76px;
-   margin-left: 80px;
+   margin-left: 60px;
    position: absolute;
    
 }
 li {
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
-  
+}
+
+.box5 {
+   width: 345px;
+   height: 352px;
+   background-color: #302F3D;
+   margin-left: 40px;
+   margin-top: 25px;
+   display: flex;
+   border-radius: 20px;
+}
+.meu-educ {
+   margin-left: 19.99px;
+   margin-top: 33px;
+   font-size: 20px;
+}
+.educ {
+   margin-top: 76px;
+   margin-left: 60px;
+   position: absolute;
 }
