@@ -5,6 +5,11 @@
    
 }
 
+a {
+   text-decoration: none;
+   color: #837E9F;
+}
+
 body {
    background: #22212C;
 }
@@ -12,11 +17,13 @@ body {
 main {
    color: #837E9F;
    font-family: 'Merriweather Sans', sans-serif;
-   
+   display: flex;
 }
 .conteiner {
    padding-top: 40px;
-   
+   padding-right: 40px;
+   display: flex;
+   flex-direction: column;
 }
 
 .box1 {
@@ -307,3 +314,31 @@ li {
    margin-left: 60px;
    position: absolute;
 }
+
+.conteiner2 {
+   padding-top: 40px;
+   padding-right: 40px;
+   display: flex;
+}
+.box6 {
+   width: 884px;
+   height: 86px;
+   background-color: #302F3D;
+   border-radius: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.meu-projtc {
+   display: flex;
+   justify-content: left ;
+   align-items: center;
+   margin-left: 30px;
+   font-size: 20px;
+}
+.todos-projtc {
+   display: flex; 
+   margin-right: 30px;
+   align-items: center;
+   font-size: 14px;
+}
+
