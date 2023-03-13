@@ -1,3 +1,4 @@
+  /* Bem-vindo */
 * {
    margin: 0;
    padding: 0;
@@ -19,16 +20,17 @@ main {
    font-family: 'Merriweather Sans', sans-serif;
    display: flex;
 }
+/* Começo conteiner1*/
 .conteiner {
    padding-top: 40px;
    padding-right: 40px;
    display: flex;
    flex-direction: column;
 }
-
+/* Começo box1 */
 .box1 {
    width: 345px;
-   height: 230px;
+   height: 256px;
    background-color: #302F3D;
    margin-left: 40px;
    
@@ -37,26 +39,26 @@ main {
  
 }
 .origin {
-   width: 80px;
-   height: 80px;
+   width: 100px;
+   height: 100px;
    object-fit: cover;
    border-radius: 100px;
-   margin-left: 130px;
+   margin-left: 125px;
    margin-top: 30px;
    border: 2px solid #00FF00;
 }
 .meu-nome {
-   margin-left: 75px;
+   margin-left: 80px;
    margin-top: 20px;
    font-size: 20px;
 }
 .sou {
-   margin-left: 125px;
+   margin-left: 130px;
    margin-top: 10px;
    font-size: 10px;
    font-family: 'Roboto', sans-serif;
 }
-
+/* Começo box2 */
 .box2 {
    width: 345px;
    height: 350px;
@@ -166,7 +168,7 @@ margin-left: 40px;
    size: 10px;
    margin-left: 20px;
 }
-
+/* Começo box3 */
 .box3 {
    width: 345px;
    height: 208px;
@@ -269,7 +271,7 @@ margin-left: 40px;
    margin-left: 37px;
    display: flex;
 }
-
+/* Começo box4 */
 .box4 {
    width: 345px;
    height: 349px;
@@ -294,7 +296,7 @@ li {
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
 }
-
+/* Começo box5 */
 .box5 {
    width: 345px;
    height: 352px;
@@ -314,12 +316,15 @@ li {
    margin-left: 60px;
    position: absolute;
 }
-
+/* Fim do conteiner1 */
+/* Começo conteiner2*/
 .conteiner2 {
    padding-top: 40px;
    padding-right: 40px;
    display: flex;
+   flex-direction: column;
 }
+/* Começo box6 */
 .box6 {
    width: 884px;
    height: 86px;
@@ -341,4 +346,161 @@ li {
    align-items: center;
    font-size: 14px;
 }
+/* Começo box7-8 */
+.box7-8 {
+   display: flex;
+   margin-top: 20px;
+}
+/* parte1 */
+.my-onix {
+  width: 430px;
+  height: 150px;
+  background-color: #302F3D;
+  border-radius: 20px;
+}
+.link-onix {
+   display: flex;
+   margin-top: 30px;   
+}
+.icon-pasta {
+   display: flex;
+   margin-left: 30px;
+}
+.nome-onix {
+ display: flex;
+ margin-left: 16px;
+}
+.tex-consulte {
+   font-size: 11px;
+   font-family: 'Roboto', sans-serif;
+   margin-left: 30px;
+   margin-top: 22px;
+}
+.link-star {
+   display: flex;
+   margin-top: 30px;  
+}
+.icon-star {
+   display: flex;
+   margin-left: 30px;
+}
+.nome-star {
+   display: flex;
+   font-family: 'Roboto', sans-serif;
+   font-size: 11px;
+   margin-top: 5px;
+   margin-left: 8px;
+}
+.icon-branch {
+   display: flex;
+   margin-left: 16px;
+}
+.nome-branch {
+   display: flex;
+   font-family: 'Roboto', sans-serif;
+   font-size: 11px;
+   margin-top: 5px;
+   margin-left: 8px;
+}
+.bola {
+   display: flex;
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   background: #E7DE79;
+   border-radius: 20px;
+   border: 2px solid #837E9F;
+   margin-left: 320px;
+}
+.my-bola {
+   display: flex;
+   margin-left: 200px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+}
+ /* parte dois */
+.my-onix2 {
+   width: 429px;
+   height: 150px;
+   background-color: #302F3D;
+   border-radius: 20px;
+   margin-left: 25px;
+ }
+ .link-onix2 {
+   display: flex;
+   margin-top: 30px;   
+}
+.icon-pasta2 {
+   display: flex;
+   margin-left: 30px;
+}
+.nome-onix2 {
+   display: flex;
+   margin-left: 16px;
+}
+.tex-consulte2 {
+   font-size: 11px;
+   font-family: 'Roboto', sans-serif;
+   margin-left: 30px;
+   margin-top: 22px;
+}
+.link-star2 {
+   display: flex;
+   margin-top: 30px;  
+}
+.icon-star2 {
+   display: flex;
+   margin-left: 30px;
+}
+.nome-star2 {
+   display: flex;
+   font-family: 'Roboto', sans-serif;
+   font-size: 11px;
+   margin-top: 5px;
+   margin-left: 8px;
+}
+.icon-branch2 {
+   display: flex;
+   margin-left: 16px;
+}
+.nome-branch2 {
+   display: flex;
+   font-family: 'Roboto', sans-serif;
+   font-size: 11px;
+   margin-top: 5px;
+   margin-left: 8px;
+}
+.bola2 {
+   display: flex;
+   position: absolute;
+   width: 15px;
+   height: 15px;
+   background: #E7DE79;
+   border-radius: 20px;
+   border: 2px solid #837E9F;
+   margin-left: 320px;
+}
+.my-bola2 {
+   display: flex;
+   margin-left: 200px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+}
+/* Começo box9*/
 
+.box9 {
+   width: 884px;
+   height: 86px;
+   background-color: #302F3D;
+   border-radius: 20px;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 25px;
+}
+.recentes {
+   display: flex;
+   justify-content: left ;
+   align-items: center;
+   margin-left: 30px;
+   font-size: 20px;
+}
