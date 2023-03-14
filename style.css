@@ -494,7 +494,6 @@ li {
    background-color: #302F3D;
    border-radius: 20px;
    display: flex;
-   justify-content: space-between;
    margin-top: 25px;
 }
 .recentes {
@@ -503,4 +502,72 @@ li {
    align-items: center;
    margin-left: 30px;
    font-size: 20px;
+}
+
+.box10 {
+   width: 884px;
+   height: 201px;
+   background-color: #302F3D;
+   border-radius: 20px;
+   display: flex;
+   margin-top: 25px;
+}
+.origin2 {
+   position: absolute;
+   display: flex;
+   width: 128px;
+   height: 128px;
+   object-fit: cover;
+   border-radius: 100px;
+   margin-left: 30px;
+   margin-top: 31px;
+}
+.my-image {
+   display: flex;
+   margin-left: 170px;
+   margin-top: 40px;
+}
+.anos {
+   display: flex;
+   margin-left: 170px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 12px;
+   margin-top: 10px;
+}
+.my-image2 {
+   display: flex;
+   margin-left: 170px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   margin-top: 30px;
+}
+.frases {
+   display: flex;
+   font-size: 13px;
+   margin-left: 170px;
+   margin-top: 11px;
+}
+.frase1 {
+   display: flex;
+  position: absolute;
+}
+.frase2 {
+   position: absolute;
+   margin-left: 100px;
+}
+.frase3 {
+   position: absolute;
+   margin-left: 200px;
+}
+.frase4 {
+   margin-left: 300px;
+}
+
+.final-footer {
+   color: #837E9F;
+   font-family: 'Merriweather Sans', sans-serif;
+   font-size: 14px;
+   text-align: center;
+   padding-top: 19px;
+   padding-bottom: 20px;
 }
