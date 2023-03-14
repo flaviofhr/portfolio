@@ -19,6 +19,7 @@ main {
    color: #837E9F;
    font-family: 'Merriweather Sans', sans-serif;
    display: flex;
+   justify-content: center;
 }
 /* Começo conteiner1*/
 .conteiner {
@@ -32,7 +33,7 @@ main {
    width: 345px;
    height: 256px;
    background-color: #302F3D;
-   margin-left: 40px;
+   
    
    display: flex;
    border-radius: 20px;
@@ -63,7 +64,6 @@ main {
    width: 345px;
    height: 350px;
    background-color: #302F3D;
-   margin-left: 40px;
    margin-top: 25px;
    display: flex;
   
@@ -173,7 +173,7 @@ margin-left: 40px;
    width: 345px;
    height: 208px;
    background-color: #302F3D;
-   margin-left: 40px;
+ 
    margin-top: 25px;
    display: flex;
    border-radius: 20px;
@@ -276,7 +276,7 @@ margin-left: 40px;
    width: 345px;
    height: 349px;
    background-color: #302F3D;
-   margin-left: 40px;
+ 
    margin-top: 25px;
    display: flex;
    border-radius: 20px;
@@ -301,7 +301,7 @@ li {
    width: 345px;
    height: 352px;
    background-color: #302F3D;
-   margin-left: 40px;
+   
    margin-top: 25px;
    display: flex;
    border-radius: 20px;
@@ -320,7 +320,7 @@ li {
 /* Começo conteiner2*/
 .conteiner2 {
    padding-top: 40px;
-   padding-right: 40px;
+   
    display: flex;
    flex-direction: column;
 }
