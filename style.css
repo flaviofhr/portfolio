@@ -3,7 +3,6 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   
 }
 
 a {
@@ -354,6 +353,9 @@ li {
    margin-top: 20px;
 }
 /* parte1 */
+.bolinha {
+   display: flex;
+}
 .my-onix {
   width: 430px;
   height: 150px;
@@ -412,7 +414,7 @@ li {
    background: #E7DE79;
    border-radius: 20px;
    border: 2px solid #837E9F;
-   margin-left: 320px;
+   margin-left: 180px;
 }
 .my-bola {
    display: flex;
@@ -480,7 +482,7 @@ li {
    background: #E7DE79;
    border-radius: 20px;
    border: 2px solid #837E9F;
-   margin-left: 320px;
+   margin-left: 180px;
 }
 .my-bola2 {
    display: flex;
@@ -562,6 +564,7 @@ li {
    margin-left: 200px;
 }
 .frase4 {
+   
    margin-left: 300px;
 }
 
@@ -573,3 +576,104 @@ li {
    padding-top: 19px;
    padding-bottom: 20px;
 }
+
+/* Responsividade */
+
+@media (max-width: 700px) {
+   main {
+      flex-direction: column;
+      justify-content: center;
+   }
+
+   .box6 {
+      width: 345px;
+   }
+   .tex-consulte {
+      font-size: 16px;
+   }
+   .my-onix {
+      width: 345px;
+      height: 200px;
+   }
+   .bolinha {
+      display: flex;
+   }
+   .bola {
+      margin-left: 80px;
+   }
+   .my-bola {
+      width: 345px;
+      margin-left: 100px;
+   }
+   .box7-8 {
+      flex-direction: column;
+   }
+   .my-onix2 {
+      margin-top: 20px;
+      width: 345px;
+      height: 200px;
+      margin-left: 0;
+   }
+   .bolinha2 {
+      display: flex;
+   }
+   .bola2 {
+      margin-left: 80px;
+   }
+   .my-bola2 {
+      width: 345px;
+      margin-left: 100px;
+   }
+   .tex-consulte2 {
+      font-size: 16px;
+   } 
+
+   .box9 {
+      width: 345px;
+   }
+   
+   .box10 {
+      
+      width: 345px;
+      height: 400px;
+   }
+   .origin2 {
+      
+      margin-left: 110px;
+   }
+  .my-image {
+   word-wrap:  break-word;
+   width: 20em;
+   margin-top: 180px;
+   margin-left: 10px;
+   text-align: center;
+  }
+  .anos {
+   margin-left: 20px;
+   
+  }
+  .my-image2 {
+   word-wrap:  break-word;
+   width: 20em;
+   margin-left: 10px;
+   text-align: center;
+  }
+  .frases {
+
+  }
+  .frase1 {
+   margin-left: -100px;
+  }
+  .frase2 {
+   margin-left: 0px;
+  }
+  .frase3 {
+   margin-top: 20px;
+   margin-left: -100px;
+  }
+  .frase4 {
+   margin-top: 20px;
+   margin-left: 0px;
+  }
+}
+ 
